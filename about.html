@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>work</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Chivo|Fjalla+One|Josefin+Sans|Kalam|Quattrocento|PT+Sans+Caption|Montserrat|Questrial&display=swap" rel="stylesheet">
+	<link href="css/work.css" rel="stylesheet">
+	<link href="css/skill.css" rel="stylesheet">
+	<link href="css/progress.css" rel="stylesheet">
+	<link href="css/about.css" rel="stylesheet">
+	<link href="css/sal.css" rel="stylesheet">
+</head>
+<body>
+	<script src="js/sal.js"></script>
+<div class="main-container">
+	<div class="inside-container">
+		<div id="logo">
+			<div id="logo2">
+			<img src="images/png-logo-design-online-5.png">
+			</div>
+		</div>
+		<div class="row row-1">
+			<ul class="menu">
+				<li><a href="index.html"><i class="fas fa-home m1"></i><span>HOME</span></a></li>
+				<li class="active"><a href="about.html"><i class="fas fa-user m2" style="color:#DA1B60"></i><span>ABOUT</span></a></li>
+				<li><a href="skill.html"><i class="fas fa-pen m3"></i><span>SKILLS</span></a></li>
+				<li><a href="work.html"><i class="fas fa-image m4"></i><span>PORTFOLIO</span></a></li>
+				<li><a href="contact.html"><i class="fas fa-envelope m5"></i><span>CONTACT</span></a></li>
+			</ul>
+		</div>
+		<div class="hamburger">
+			<i class="fas fa-bars"></i>
+		</div>
+	</div>
+</div>
+<div class="main-container">
+	<!--Skill -->
+	<div class="inside-container port about-inside">
+		<h1 class="heading" data-sal="flip-right" data-sal-delay="500" data-sal-duration="1500" data-sal-easing="ease-bounce-out">ABOUT ME</h1>
+		 <div  class="text-center">
+            <hr class="line"> <i class="far fa-square rotate-45"></i> <i class="far fa-square rotate-45"></i> <hr class="line"> 
+        </div>
+        <div class="row about-row">
+        	<div class="selfimage col-lg-5 col-sm-4 col-md-6">
+        		<img src="images/about5.jpg">
+        	</div>
+        	<div class="mydetails col-lg-6 col-sm-4 col-md-5 col-12">
+	        	<h1>Priyanka Girase</h1>
+	        	<p class="abouthead">Full-Stack Web Developer</p>
+	        	<p class="aboutme">
+	        		I'm a a self-motivated student who is looking for a bright career opportunity in web-designing & development, equipped with all the tools required for front as well as back-end developing. I am a hard working individual with a great attention to detail. I enjoy new and challenging projects that push me to learn more in the great field of web designing & development.
+	        	</p>
+	        	<a href="Projects/priyankaResume.pdf" class="btn btn-outline-danger resume">Resume</a>
+        	</div>
+        </div>
+    <div class="row footer">
+		<p class="">Copyright © 2019 Portfolio. All rights reserved | Designed by Priyanka Girase</p>
+	</div>
+</div> <!-- inside-container -->
+</div>  <!-- main-container -->
+<script type="text/javascript">
+	sal({
+	  threshold: 1,
+	  once: false,
+	});
+</script>
+<script>
+	$(".hamburger").click(function(){
+		$(".row-1").slideToggle();
+	});
+</script>
+</body>
+</html>

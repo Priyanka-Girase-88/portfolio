@@ -1,0 +1,85 @@
+.contact{
+	height:143px;
+}
+.contact-row{
+	width:100%;
+	margin-top:50px;
+}
+.contact img{
+	width:100%;
+	height:143px;
+	filter:grayscale(0.3);
+	object-fit:cover;
+	border:2px solid white;
+}
+.full,.full-1{
+	color:#F4F3F4;
+	text-align:left;
+	height:100%;
+	padding-top:20px;
+}
+.full i{
+	color:#F4F3F4;
+}
+.full-1{
+	height: 100%;
+}
+.full-1 input[type="text"],input[type="email"]{
+	height:42px;
+	margin-bottom:10px;
+	background:rgb(0,0,0,0.6);
+	color:#FEFEFE;
+	background: transparent;
+	background:rgb(0,0,0,0.6);
+}
+.full-1 input[type="submit"]{
+	margin-top: 10px;
+	height:42px;
+}
+.full-1 textarea{
+	height:250px;
+	background:rgb(0,0,0,0.6);
+	color:white;
+	resize:none;
+}
+.full-1 textarea:focus,.full-1 input[type="email"],.full-1 input:focus{
+	background:rgb(0,0,0,0.6);
+	box-shadow: none;
+	color:white;
+}
+.show{
+	margin-top:-300px;
+}
+.show iframe{
+	border:4px solid blue;
+}
+@media(max-width:575px){
+	.show{
+		margin-top:45px;
+	}
+	.show iframe{
+		width:280px;
+	}
+	.full{
+		font-size:14px;
+	}
+	.full-1 textarea{
+		background:#060508;
+	}
+}
+@media(min-width:576px) and (max-width:991px){
+	.show{
+		margin-top:45px;
+	}
+}
+@media(min-width:992px) and (max-width:1038px)
+{
+	.show iframe{
+		width:320px;
+	}
+}
+@media(min-width:768px) and (max-width:990px){
+	.show iframe{
+		width:600px;
+	}
+}

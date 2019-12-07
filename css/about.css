@@ -1,0 +1,51 @@
+.selfimage img{
+	width:100%;
+	height:100%;
+	border:3px solid grey;
+	cursor:pointer;
+	box-shadow:0px 0px 4px black;
+}
+.about-row{
+	width:80%;
+	margin:60px auto;
+	margin-bottom:150px;
+}
+.mydetails h1{
+	font-family:"Rubik",Lato,"Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	font-size:35px;
+	margin-top:20px;
+	text-align: left;
+	color:#F4F3F4;;
+	cursor:pointer;
+}
+.mydetails{
+	margin-left:20px;
+}
+.mydetails .abouthead{
+	color:red;
+	font-size:18px;
+	text-align: left;
+}
+.mydetails p{
+	color:grey;
+}
+.mydetails .aboutme{
+	text-align:justify;
+	line-height:30px;
+}
+.resume{
+	float:left;
+}
+@media(min-width:768px) and (max-width:992px){
+	.about-row{
+		width:100%;
+	}
+}
+@media(max-width:484px){
+	.mydetails h1{
+		font-size:30px;
+	}
+	.mydetails .aboutme{
+		line-height:25px;
+	}
+}

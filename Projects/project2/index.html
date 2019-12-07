@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Switch Template</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/switchstyle.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<link rel="stylesheet" href="js/sal.css">
+
+</head>
+<body>
+	<script src="js/sal.js"></script>
+<div id="wrapper">
+<div id="header">
+	<h2>SWITCH</h2>
+	<div id="hamburger">
+		<i class="fas fa-bars"></i>
+	</div>
+	<div id="searchbar1">
+	<form>
+		<input type="text" name="search" placeholder="Search..." id="input-box">
+		<button class="btn"><i class="fa fa-search"></i></button>
+	</form>
+	</div>
+	<ul id="menubar">
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#">What we do?</a></li>
+		<li><a href="#">Testimonial</a></li>
+		<li><a href="#">Contact Us</a></li>
+	</ul>
+	<h1>Art is Eternal Happiness</h1>
+	<div class="work"><a href="#nextbottom">Work With Us</a></div>
+	<div class="work" id="scroll"><a href="#headerbottom">scroll down <i class="fas fa-arrow-down"></i></a></div>
+</div>
+<div id="headerbottom">
+	<p class="heading">What we do</p>
+	<div id="hr"></div>	
+	<p id="para">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+	<div id="three">
+		<div id="left" class="content" data-sal="zoom-in" data-sal-delay="200"  data-sal-duration="600" data-sal-easing="ease-out-bounce">
+			<div id="image1">
+				<img src="images/1.PNG">
+			</div>
+			<h3>Lorem Ipsum</h3>
+			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+			<a href="#">Learn more</a>
+		</div>
+		<div id="middle" class="content" data-sal="zoom-in" data-sal-delay="200"  data-sal-duration="600" data-sal-easing="ease-out-bounce">
+			<div id="image2">
+				<img src="images/2.PNG">
+			</div>
+			<h3>Lorem Ipsum</h3>
+			<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+			<a href="#">Learn more</a>
+		</div>
+		<div id="right" class="content" data-sal="zoom-in" data-sal-delay="200"  data-sal-duration="600" data-sal-easing="ease-out-bounce">
+			<div id="image3">
+				<img src="images/4.PNG">
+			</div>
+			<h3>Lorem Ipsum</h3>
+			<p>This is Photoshop's version  of Lorem Ipsum.Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,</p>
+			<a href="#">Learn more</a>
+		</div>
+	</div>
+</div>
+	<div id="nextbottom">
+		<p class="heading">Our Latest Work</p>
+		<div id="hr"></div>	
+		<p id="para">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+		<div id="row">
+		<a  id="photo" onclick="imageshow(0)" class="I">Photography</a>
+		<a  id="design" onclick="imageshow(1)" class="I">Design</a>
+		<a  id="print" onclick="imageshow(2)" class="I">Print</a>
+		</div>
+		<div id="imagescontainer">
+			<div class="viewimage">
+				<div class="image image1"></div>
+				<div class="image image4"></div>	
+				<div class="image image9"></div>
+			</div>
+			<div class="viewimage">
+				<div class="image image2"></div>
+				<div class="image image5"></div>
+				<div class="image image3"></div>
+			</div>
+			<div class="viewimage">	
+				<div class="image image8"></div>
+				<div class="image image6"></div>
+				<div class="image image7"></div>
+			</div>
+		</div>
+		<a href="#" id="view">View more work <i class="fas fa-arrow-right"></i></a>
+	</div>
+	<div id="Testimonial">
+		<p class="heading">Testimonials</p>
+		<div id="hr"></div>
+		<p id="para">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+		<div id="center"><p>“Awalnya saya tidak menderita penyakit apapun,
+		namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
+		tidak menderita penyakit apapun!”</p></div>
+			<div id="leftclick"><a href="#"><</a></div>
+			<div id="rightclick"><a href="#">></a></div>
+			<img src="images/logo.PNG" id="emoji">	
+			<div id="name"><p id="miss">Mr. Herp</p><p id="companyname">CEO of Meme,Inc.</p></div>
+	</div>
+	<div id="ourclient">
+		<p class="heading">Our happy client</p>
+		<div id="hr"></div>
+		<p id="para">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+		<div id="logoimages">
+			<div class="logo l1" data-sal="flip-up" data-sal-delay="200" data-dal-duration="1200"></div>
+			<div class="logo l2" data-sal="flip-up" data-sal-delay="350" data-dal-duration="1200"></div>
+			<div class="logo l3" data-sal="flip-up" data-sal-delay="450" data-dal-duration="1200"></div>
+			<div class="logo l4" data-sal="flip-up" data-sal-delay="550" data-dal-duration="1200"></div>
+			<div class="logo l5" data-sal="flip-up" data-sal-delay="650" data-dal-duration="1200"></div>
+			<div class="logo l6" data-sal="flip-up" data-sal-delay="750" data-dal-duration="1200"></div>
+			<div class="logo l7" data-sal="flip-up" data-sal-delay="850" data-dal-duration="1200"></div>
+			<div class="logo l8" data-sal="flip-up" data-sal-delay="950" data-dal-duration="1200"></div>
+		</div>
+		<a href="#">See all client &nbsp&nbsp<i class="fas fa-arrow-right"></i></a>
+	</div>
+	<div id="meettheteam">
+		<p class="heading">MEET THE TEAM</p>
+		<div id="hr"></div>
+		<p id="para">Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p>
+		<div id="customerimages">
+			<div class="ct" data-sal="slide-up" data-sal-delay="100" data-sal-ease="ease-out-bounce" data-sal-duration="900">
+				<div class="cust customer1"></div>
+				<div class="linecust"></div>
+				<p>Krisna Wijaya</p>
+				<div id="custlogo">
+					<div class="socialicon s1"><i class="fas fa-basketball-ball"></i></div>
+					<div class="socialicon s2"><i class="fab fa-behance"></i></div>
+					<div class="socialicon s3"><i class="fab fa-twitter"></i></div>
+				</div>
+			</div>
+
+			<div class="ct" data-sal="slide-up" data-sal-delay="250" data-sal-ease="ease-out-bounce" data-sal-duration="900">
+				<div class="cust customer2"></div>
+				<div class="linecust"></div>
+				<p>Gabriel Yoshua</p>
+				<div id="custlogo">
+					<div class="socialicon s1"><i class="fas fa-basketball-ball"></i></div>
+					<div class="socialicon s2"><i class="fab fa-behance"></i></div>
+					<div class="socialicon s3"><i class="fab fa-twitter"></i></div>
+				</div>
+			</div>
+
+			<div class="ct" data-sal="slide-up" data-sal-delay="350" data-sal-ease="ease-out-bounce" data-sal-duration="900">
+				<div class="cust customer3"></div>
+				<div class="linecust"></div>
+				<p>Adik N.K.L</p>
+				<div id="custlogo">
+					<div class="socialicon s1"><i class="fas fa-basketball-ball"></i></div>
+					<div class="socialicon s2"><i class="fab fa-behance"></i></div>
+					<div class="socialicon s3"><i class="fab fa-twitter"></i></div>
+				</div>
+			</div>
+
+			<div class="ct" data-sal="slide-up" data-sal-delay="450" data-sal-ease="ease-out-bounce" data-sal-duration="900">
+				<div class="cust customer4"></div>
+				<div class="linecust"></div>
+				<p>Zan D.J</p>
+				<div id="custlogo">
+					<div class="socialicon s1"><i class="fas fa-basketball-ball"></i></div>
+					<div class="socialicon s2"><i class="fab fa-behance"></i></i></div>
+					<div class="socialicon s3"><i class="fab fa-twitter"></i></div>
+				</div>
+			</div>
+
+			<div class="ct" id="t" data-sal="slide-up" data-sal-delay="650" data-sal-ease="ease-out-bounce" data-sal-duration="900">
+				<div class="cust customer5"></div>
+				<div class="linecust"></div>
+				<p>Zan D.J</p>
+				<div id="custlogo">
+					<div class="socialicon s1"><i class="fas fa-basketball-ball"></i></div>
+					<div class="socialicon s2"><i class="fab fa-behance"></i></div>
+					<div class="socialicon s3"><i class="fab fa-twitter"></i></div>
+				</div>
+			</div>		
+		</div>
+		<div id="meet">
+		<center><a href="#">WORK WITH US</a></center>
+		</div>
+	</div>
+	<div id="secondbottom">
+		<div id="about">
+			<p id="aboutus">About us</p>
+			<hr id="aboutline">
+			<p id="aboutdetails">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Ut aliquam massa nisl quis neque. Suspendisse in orci enim.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate curs</p>
+			<div id="custlogo1">
+					<div class="socialicon bas"><i class="fas fa-basketball-ball"></i></div>
+					<div class="socialicon beh"><i class="fab fa-behance"></i></div>
+					<div class="socialicon twi"><i class="fab fa-twitter"></i></div>
+			</div>
+		</div>
+		<div id="recentpost">
+			<p id="head">Recent posts</p>
+			<hr id="aboutlines">
+			<div class="postimg">
+				<img src="images/background/img6.png">
+				<p  class="posttext">Lorem Ipsum Dolor Sit Amet.</p>
+				<p  class="anchor mag">MAGAZINE</p>
+			</div>
+			<div class="postimg">
+				<img src="images/background/img7.png">
+				<p class="posttext">Lorem Ipsum Dolor Sit Amet.</p>
+				<p class="anchor uidesign">UI DESIGN</p>
+			</div>
+			<div class="postimg">
+				<img src="images/background/img8.png">
+				<p class="posttext">Lorem Ipsum Dolor Sit Amet.</p>
+				<p  class="anchor pgraphy">PHOTOGRAPHY</p>
+			</div>
+			<div class="postimg">
+				<img src="images/background/img10.png">
+				<p class="posttext">Lorem Ipsum Dolor Sit Amet.</p>
+				<p class="anchor book">BOOK</p>
+			</div>
+			<div class="postimg">
+				<img src="images/background/img9.png">
+				<p class="posttext">Lorem Ipsum Dolor Sit Amet.</p>
+				<p href="#" class="anchor uidesign">UI DESIGN</p>
+			</div>
+		</div>
+		<div id="contact">
+			<p id="head">Contact us</p>
+			<hr id="aboutlines">
+			<div id="contactdetails">10044 West 23th Street, Suite 721
+					New York NY 10010
+					Email: Username@email.com
+					Phone: +1 (0) 123 4567 890
+					Fax: +1 (0) 321 4567 890
+			</div>
+			<div id="form">
+				<form action="">
+					<input type="text" placeholder="Your Name...">
+					<input type="email" placeholder="Your Email...">
+					<textarea placeholder="Your Message"></textarea>
+					<input type="submit" name="" value="SEND">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p id="asseenon">AS SEEN ON</p>
+		<hr id="asline">
+		<div id="footerimg">
+		<img src="images/cnn.png">
+		<img src="images/tc.png">
+		<img src="images/bcc.png">
+		<img src="images/timesofindia.png">
+		</div>
+	</div>
+	<div id="lastfooter">
+		<p id="made">made with <i class="fas fa-heart"></i> by krisna:)</p>
+	</div>
+</div>
+	<script type="text/javascript">
+		$("#hamburger").click(function(){
+			$("#menubar").slideToggle(2000);
+		});
+		var index=0;
+		imageshow(index);
+		function imageshow(index1){
+			var images=document.getElementsByClassName("viewimage");
+			var tab=document.getElementsByClassName("I");
+			for(i=0;i<images.length;i++)
+			{
+				images[i].style.display="none";
+			}
+			for(i=0;i<tab.length;i++)
+			{
+				tab[i].style.backgroundColor="white";
+				tab[i].style.color="#43a343";
+			}
+			images[index1].style.display="block";
+			tab[index1].style.backgroundColor="#2b9b2b";
+			tab[index1].style.color="white";
+			tab[index1].style.fontSize="22px";
+		}
+		sal({
+		  threshold: 1,
+		  once: false,
+		});
+	</script>
+</body>
+</html>
